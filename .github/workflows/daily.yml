@@ -10,6 +10,9 @@ jobs:
   build-daily-topics:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write   # ← これを追加（git push のため）
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,7 +45,6 @@ jobs:
             echo "No changes to commit."
           fi
 
-      # GitHub Pages へデプロイ（Source: GitHub Actions を選んだ場合に有効）
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

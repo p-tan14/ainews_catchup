@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-28",
+  "topics": [
+    {
+      "id": "topic_001",
+      "title": "OpenAIが新しいマルチモーダルモデルを発表。画像と音声を同時に処理可能になり",
+      "summary_short": "OpenAIが新しいマルチモーダルモデルを発表。画像と音声を同時に処理可能になりました。",
+      "summary_detail": "OpenAIが新しいマルチモーダルモデルを発表。画像と音声を同時に処理可能になりました。",
+      "sources": [
+        {
+          "title": "AIExplainedYT の投稿",
+          "url": "https://x.com/example/status/1"
+        }
+      ]
+    },
+    {
+      "id": "topic_002",
+      "title": "Googleが次世代生成AIモデルを公開。推論速度が向上し、APIとして提供開始",
+      "summary_short": "Googleが次世代生成AIモデルを公開。推論速度が向上し、APIとして提供開始。",
+      "summary_detail": "Googleが次世代生成AIモデルを公開。推論速度が向上し、APIとして提供開始。",
+      "sources": [
+        {
+          "title": "rowancheung の投稿",
+          "url": "https://x.com/example/status/2"
+        }
+      ]
+    }
+  ]
+}
